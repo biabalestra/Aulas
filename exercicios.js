@@ -20,8 +20,15 @@ else{console.log(x2)}
 
 
 const x = 3
-if(x>0){console.log("positive")}
-else if(x<0){console.log("negative")}
+if(x>0)
+{
+    console.log("positive")
+}
+
+else if(x<0)
+{
+    console.log("negative")
+}
 else{console.log("zero")}
 
 const a1 = 90
@@ -67,6 +74,34 @@ else{console.log('erro')}
 
 
 
+let sb = 2800
+let inss = 0
+if(sb<=1556.94){
+    inss=sb-(0.08*sb)
+}
+else if (sb>1556.94 && sb<=2594.92){
+    inss=sb-(0.09*sb)
+}
+else if(sb>2594.92 && sb<= 5189.82){
+    inss=sb-(0.11*sb)
+}
 
+else if(sb>5189.82){
+    inss=sb-570.88
+}
 
-
+if(inss<=1903.98){
+    console.log(inss)
+}
+else if(inss>1903.98 && inss<=2826.65){
+    console.log(inss-(0.075*inss+142.8))
+}
+else if(inss>2826.65 && inss<=3751.05){
+    console.log(inss-(0.15*inss+354.8))
+}
+else if(inss>3751.05 && inss<=4664.68){
+    console.log(inss-(0.225*inss+636.13))
+}
+else if(inss>4664.68){
+    console.log(inss-(0.275*inss+869.36))
+}
