@@ -263,6 +263,11 @@
 
 
 
+// //fazer exercicio de binarios => decimais (ex.8)
+
+
+
+
 
 // let ano = 2800
 // if(ano%400 === 0 ){
@@ -402,40 +407,14 @@
 
 
 
-// let zahlen = [5, 5]
-// let resultado = 0
-// for (let i = 0; i < zahlen[0]; i += 1) {
-//     resultado += zahlen[1]
-// }
-// console.log(resultado)
+let zahlen = [10, 7]
+let resultado = 0
+for (let i = 0; i < zahlen[0]; i += 1) {
+    resultado += zahlen[1]
+}
+console.log(resultado)
 
 
-
-
-
-// let N = 2
-// let E = 1
-// let F = 1
-// for (let i = 1; i <= N; i += 1){
-//     F = F*i 
-//     E = E + 1/F
-// }
-// console.log(E)
-
-
-
-
-
-
-
-
-//Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
-//mostre-a expressa apenas em dias (considerar os ANOS BISSEXTOS)
-
-
-
-
-let numeros  = [9, 6, 2, 8, 0]
 
 
 
