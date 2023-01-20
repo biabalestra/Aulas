@@ -1,7 +1,0 @@
-let arranjo = []
-let length = 26
-
-for (let i = 1; i < length; i++) {
-    arranjo.push(i)
-}
-console.log(arranjo)

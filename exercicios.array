@@ -1,4 +1,0 @@
-let  numerospares = [2,4,8]
-     for (i = 0; i < numerospares.length; i+1) {
-        console.log(numerospares[i]);
-      }
